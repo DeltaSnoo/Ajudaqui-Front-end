@@ -1,0 +1,82 @@
+
+
+/* Estilo para o contêiner da barra de pesquisa */
+.search-container {
+  display: flex; /* Usando flexbox */
+  align-items: center; /* Centralizando verticalmente */
+  justify-content: center; /* Centralizando horizontalmente */
+}
+
+/* Estilo para a caixa de texto de pesquisa */
+.search-container input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px; /* borda arredondada à esquerda */
+  color: rgb(11, 11, 177);
+  font-weight: bold;
+  margin-right: 10px;
+}
+input::placeholder {
+  color: rgb(11, 11, 177);
+  font-weight: bold;
+}
+
+/* Estilo para o botão de pesquisa */
+.search-container button {
+  display: flex; /* Torna o botão um contêiner flexível */
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  padding: 10px;
+  border: none;
+  background-color: rgb(11, 11, 177); /* cor de fundo azul */
+  color: #fff; /* cor do texto branco */
+  border-radius: 5px; /* borda arredondada à direita */
+  cursor: pointer;
+}
+
+/* Efeito de hover no botão */
+.search-container button:hover {
+  background-color:  #007bff; /* cor de fundo azul mais escura */
+}
+
+/* Estilo para o ícone dentro do botão */
+.search-container button i {
+  font-size: 1.2em; /* Define o tamanho do ícone */
+}
+
+.search-container input[type="date"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px; /* Espaço entre os campos de entrada */
+  color: rgb(11, 11, 177);
+  font-weight: bold;
+}
+  /* Estilo para os rótulos */
+  .search-container label {
+    color: rgb(11, 11, 177);
+    font-weight: bold;
+    margin-right: 5px; /* Espaço entre o rótulo e o campo de entrada */
+}
+
+/* Estilo para o campo de combobox */
+.search-container .custom-select {
+  color: rgb(11, 11, 177);
+  font-weight: bold;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  appearance: none; /* Remove a aparência padrão do campo de seleção */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M7 10l5 5 5-5z" /></svg>'); /* Adiciona uma seta personalizada */
+  background-repeat: no-repeat;
+  background-position: right 10px center; /* Posiciona a seta à direita */
+  background-size: 18px; /* Tamanho da seta */
+  font-size: 16px;
+  cursor: pointer;
+}
+
+  

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/main.css">
+  
+    <!-- FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet"/>
+  
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/9189799d2b.js" crossorigin="anonymous"></script>
+      
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+      <a class="nav-brand" href="index.html">BicoIn</a>
+
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="index.html">Início</a>
+        </li> 
+        <li class="nav-item">
+          <a href="login.html">Entrar</a>
+        </li>
+        <li class="nav-item">
+          <a href="#">Contato</a>
+        </li>
+      </ul>
+  </header><br>
+    <div class="search-container">
+      <select class="custom-select">
+        <option value="" selected disabled >Selecione</option>
+        <option value="jardineiro">Jardineiro</option>
+        <option value="motorista">Motorista</option>
+        <option value="pedreiro">Pedreiro</option>
+    </select>
+      <input type="text" placeholder="Pesquisar Cidades" >
+      <label for="from">De:</label>
+      <input type="date">
+      <label for="to">Até:</label>
+      <input type="date">
+      <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+  </div> <br>
+  <main>
+    <section id="post-modal">
+
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="social-icons">
+      <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+    </div>
+    <a class="nav-brand-login" href="#">BicoIn</a>
+  </footer>
+</body>
+</html>

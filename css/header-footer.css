@@ -1,0 +1,78 @@
+/* HEADER */
+header{
+  background-color: white;
+  height: 80px;
+}
+
+header #navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem; /*1rem = 16px rem é mais responsivo do que px*/
+  max-width: 1200px;
+  margin: 0 auto; /*centraliza */
+  height: 80px;
+}
+
+header #navbar .nav-brand{
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(11, 11, 177);
+}
+
+header #navbar .nav-list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+header #navbar .nav-list .nav-item a{
+  text-decoration: none;
+  color: rgb(11, 11, 177);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+header #navbar .nav-list .nav-item a:hover{
+  color: #777;
+  transition: 0.3s;
+}
+
+header #navbar .hamburger-menu{
+  display: none;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #cecece7a;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+}
+
+.nav-brand-login {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(11, 11, 177);
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icon {
+  color: rgb(11, 11, 177);
+  font-size: 24px;
+  margin-left: 10px; /* Adiciona um espaço entre os ícones sociais */
+}
+@media (max-width: 768px) {
+  .form-group {
+    flex: 0 0 100%; /* Em telas menores, cada grupo ocupa 100% da largura */
+  }
+}
